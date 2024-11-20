@@ -43,13 +43,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="h-screen flex flex-col bg-black justify-center items-center text-white"
+      className="min-h-screen flex flex-col bg-black justify-center items-center text-white px-4"
     >
-      <div className="contact-content mb-52">
-        <h1 className="text-4xl font-bold mb-64">Contact Me</h1>
+      <div className="contact-content mb-20 md:mb-52 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold mb-8">Contact Me</h1>
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col mt-14 gap-4 w-96"
+          className="flex flex-col mt-8 gap-4 w-full max-w-md mx-auto"
         >
           <input
             type="text"
