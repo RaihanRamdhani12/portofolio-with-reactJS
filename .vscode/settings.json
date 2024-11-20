@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true, // Menggunakan tanda kutip tunggal
+  "prettier.tabWidth": 2, // Menentukan jumlah spasi per tab
+  "prettier.trailingComma": "es5",
+  "git.ignoreLimitWarning": true // Menambahkan koma di akhir objek
+}
