@@ -2,6 +2,7 @@ import React from 'react';
 import Image1 from '../assets/Perpusdigital.png';
 import Image2 from '../assets/floram.png';
 import Image3 from '../assets/biona.png';
+import Image4 from '../assets/ourclass.png';
 
 const Project = () => {
   return (
@@ -91,6 +92,38 @@ const Project = () => {
               </p>
               <a
                 href="https://www.youtube.com/watch?v=-V8mIAjchXc&t=233s"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline mt-4 block"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          <div
+            key="4"
+            className="bg-white hover:shadow-xl shadow-blue-900 shadow-lg rounded-lg overflow-hidden"
+          >
+            <img
+              src={Image4}
+              alt="OUR CLASS"
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-gray-800">
+                OUR CLASS"
+              </h3>
+              <p className="text-gray-600 mt-2">
+                Sistem pengetapan kelas online. Sebuah Website manajemen
+                penggunaan kelas, dimana Website ini berfungsi untuk menetapkan
+                kelas yang ingin dipakai, Website ini memungkinkan anda untuk
+                melihat jadwal jadwal kelas yang tersedia ataupun tidak
+                tersedia. Jadi anda dapat menetapkan kelas sebelum kelas
+                tersebut dipakai
+              </p>
+              <a
+                href="https://github.com/RaihanRamdhani12/OUR-CLASS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline mt-4 block"
